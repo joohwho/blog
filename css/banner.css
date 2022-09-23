@@ -1,0 +1,9 @@
+.banner {
+    border: 2px solid var(--color-first);
+    box-shadow: 4px 4px 0px var(--color-fourth);
+    transition: transform 200ms ease-in-out;
+}
+
+.banner:hover {
+    transform: scale(1.05);
+}

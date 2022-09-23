@@ -1,5 +1,8 @@
 h1 {
-    color: #f25a70;
-    text-shadow: 4px 4px 4px #000000;
+    color: var(--color-first);
+    text-shadow: 4px 4px 4px var(--color-fourth);
     text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
