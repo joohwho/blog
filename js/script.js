@@ -10,7 +10,7 @@ img.src = "img/banner-4.png";
 img.alt = "banner-4";
 img.classList.add("banner");
 
-title.textContent = "Filme do Pelé";
+title.textContent = "O Homem Bicentenário";
 title.classList.add("caption")
 
 figure.insertAdjacentElement("beforeend", img);
