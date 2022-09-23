@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+label {
+    display: block;
+    font: 400 25px 'Fira Code', monospace;
+    color: var(--color-third);
+    text-align: center;
+}

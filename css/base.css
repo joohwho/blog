@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Variáveis Globais */
+:root {
+    /* Colorido */
+    --color-first: #62C462;
+    --color-second: #5BC0DE;
+    --color-third: #fff;
+    --color-fourth: #FFF457;
+    /* Preto */
+    --color-black-first: #000;
+    --color-black-second: #3a4042;
+}
+
+body {
+    background-color: var(--color-black-second);
+    font-family: 'Press Start 2P', cursive;
+}

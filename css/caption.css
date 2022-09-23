@@ -1,0 +1,6 @@
+.caption {
+    display: block;
+    color: var(--color-first);
+    text-shadow: 2px 2px 0px var(--color-black-first);
+    line-height: 24px;
+}
