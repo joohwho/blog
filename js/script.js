@@ -1,6 +1,20 @@
-const movie = {
-    title: "Karatê Kid",
-    url: "https://assets-global.website-files.com/60ff690cd7b0537edb99a29a/6255ef043ae3853f0d147635_karate-kid.png"
-};
+const listBanner = document.querySelector(".list-banner");
 
-document.createElement()
+const figure = document.createElement("figure");
+const img = document.createElement("img");
+const title = document.createElement("figcaption");
+
+figure.classList.add("wrapper-banner")
+
+img.src = "img/banner-4.png";
+img.alt = "banner-4";
+img.classList.add("banner");
+
+title.textContent = "Filme do Pelé";
+title.classList.add("caption")
+
+figure.insertAdjacentElement("beforeend", img);
+figure.insertAdjacentElement("beforeend", title);
+
+listBanner.insertAdjacentElement("beforeend", figure);
+
